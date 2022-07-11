@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
+    scroll-behavior: smooth;
+}
+
+body,
+div,
+a,
+p,
+h1 , h2,h3,h4,h5,h6,.moto-text_normal {
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+.header {
+    background-image: url(/layer/Layer-42.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wt-title {
+    font-size: 25px !important;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.wt-title-sub {
+   font-weight: bolder;
+}
+
+.wt-bg{
+    background-image: url('/mt-demo/78300/78303/mt-content/uploads/2019/02/mt-1763-home-bg3.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wt-bg1 {
+    width: 400px;
+    height: 300px;
+}
+
+.wt-color *  {
+    color: #000 !important;
+}
+
+@media (max-width: 500px)  { 
+      .wt-img-bg {
+          display: none;
+      }
+
+  }
