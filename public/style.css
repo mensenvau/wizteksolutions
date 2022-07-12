@@ -22,6 +22,7 @@ h1 , h2,h3,h4,h5,h6,.moto-text_normal {
     font-size: 25px !important;
     margin-bottom: 20px;
     text-transform: uppercase;
+    color: #008DD2; /* #008DD2 */
 }
 
 .wt-title-sub {
@@ -42,6 +43,12 @@ h1 , h2,h3,h4,h5,h6,.moto-text_normal {
 
 .wt-color *  {
     color: #000 !important;
+    
+}
+
+.wt-color .moto-text_normal{
+    color: #000 !important;
+    font-size: 16px !important;
 }
 
 @media (max-width: 500px)  { 
@@ -49,4 +56,27 @@ h1 , h2,h3,h4,h5,h6,.moto-text_normal {
           display: none;
       }
 
+  }
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000; 
   }
