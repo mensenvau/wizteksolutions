@@ -56,6 +56,15 @@ h1 , h2,h3,h4,h5,h6,.moto-text_normal {
           display: none;
       }
 
+      .moto-widget-carousel-item img {
+        width: 75px !important;
+      }
+      .wt-title {
+        font-size: 20px !important;
+        margin-bottom: 10px;
+ 
+    }
+    
   }
 
 

@@ -1,0 +1,49 @@
+   <div class="moto-widget moto-widget-block moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+        style="margin-top: 100px;" data-widget="block" data-spacing="aaaa" data-bg-position="left top">
+        <a class="moto-anchor" name="gallery"></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="moto-cell col-sm-12" data-container="container">
+                    <div class="moto-widget moto-widget-container moto-container_content_5c7525fb4"
+                        data-widget="container" data-container="container"
+                        data-css-name="moto-container_content_5c7525fb4" data-bg-position="left top">
+                        <div data-widget-id="wid_1551181178_6ngvd877m"
+                            class="moto-widget moto-widget-slider moto-widget-carousel moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto moto-widget-carousel-loader"
+                            data-widget="carousel" data-preset="default">
+                            <div class="loading-block">
+                                <div class="loading-circle">
+                                    <div></div>
+                                </div>
+                                <div class="loading-circle">
+                                    <div></div>
+                                </div>
+                                <div class="loading-circle">
+                                    <div></div>
+                                </div>
+                                <div class="loading-circle">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="carousel-block">
+                                <div class="moto-widget-carousel-list"
+                                    data-moto-carousel-options='{"slideshowEnabled":true,"slideshowDelay":5,"showNextPrev":false,"showPaginationDots":true,"slideWidth":480,"minSlides":1,"maxSlides":4,"moveSlides":1,"margins":30,"itemsCount":4}'>
+                                    <div class="moto-widget-carousel-item">
+                                        <a class="moto-widget-carousel-link moto-link" href="/public/bg1.jpg"
+                                            data-action="lightbox"><img class="wt-bg1" src="/public/bg1.jpg" /></a>
+                                    </div>
+                                    <div class="moto-widget-carousel-item">
+                                        <a class="moto-widget-carousel-link moto-link" href="/public/bg2.jpg"
+                                            data-action="lightbox"><img class="wt-bg1" src="/public/bg2.jpg" /></a>
+                                    </div>
+                                    <div class="moto-widget-carousel-item">
+                                        <a class="moto-widget-carousel-link moto-link" href="/public/bg3.jpg"
+                                            data-action="lightbox"><img class="wt-bg1" src="/public/bg3.jpg" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

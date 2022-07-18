@@ -208,7 +208,9 @@
                                                             <div
                                                                 class="moto-widget-text-content moto-widget-text-editable">
                                                                 <p class="moto-text_system_9" style="color: #fff;">
-                                                                    WizeTek Consulting is a technology consulting firm focused on partnering with our clients to migrate & modernize their IT platform using Azure Cloud, implement modern data & analytics solutions, & help them build successful IT team with SMEs and dedicated talents.
+                                                                    <span class="moto-color5_5 " style="font-size: 20px;">
+                                                                        WizeTek Solutions is a technology consulting firm focused on partnering with our clients to migrate & modernize their IT platform using Azure Cloud, implement modern data & analytics solutions, & help them build successful IT team with SMEs and dedicated talents.
+                                                                    </span>
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -696,6 +698,12 @@
                                                                                 class="moto-widget-button-label">SEND</span>
                                                                         </button>
                                                                     </div>
+                                                                            <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+      
+                                                                    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/css/toastr.css" rel="stylesheet"/>
+                                                                      
+                                                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
+                                                             
                                                                     <script>
                                                                         let sendMessage = () => {
                                                                             let tx = ""
@@ -704,10 +712,17 @@
                                                                             let email = document.getElementById("email").value
                                                                             let message = document.getElementById("message").value
                                                                             tx = `New message: ${name}, ${phone} , ${email}\n, ${message}`
-                                                                            $.get(`https://api.telegram.org/bot5553753135:AAGCfzy3Dd82_i2C3Dg5bxUROOZBA1JDEUU/sendMessage?chat_id=-679621702&text=${tx}`)
+
+                                                                            try {
+                                                                                $.get(`https://api.telegram.org/bot5553753135:AAGCfzy3Dd82_i2C3Dg5bxUROOZBA1JDEUU/sendMessage?chat_id=-679621702&text=${tx}`)
+                                                                                toastr.options.timeOut = 1500; // 1.5s
+                                                                                toastr.success('Your message has been sent');
+                                                                            } catch {
+                                                                                toastr.options.timeOut = 2000;
+                                                                                toastr.warning('Your message could not be sent, please contact us by phone number');
+                                                                            }
 
                                                                             document.getElementById("form").reset()
-                                                                            document.getElementById("send") = "The message was sent successfully"
                                                                         }
                                                                     </script>
                                                                 </div>
